@@ -40,6 +40,7 @@ class SinglyLL    // Diclaration of a class
            int Count();
            int SearchFirstOccurnce(T no);
            int SearchLastOccurnce(T no);
+           int Frequency(T no);
 };
 /////////////////////////////////////////////////////////
 //
