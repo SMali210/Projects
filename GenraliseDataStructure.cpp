@@ -1,15 +1,22 @@
 #include<iostream>
 using namespace std;
-
+////////////////////////////////////////////////////
+//
+// Appliction Name : GenraliseDataStructure
+// Description     : implementation Of All STL Library With Some Added Function
+// Author          : Siddhesh Naval Mali
+// Date            : 22/01/2023
+//
+//////////////////////////////////////////////////////
 template<class T>
-struct nodeS   // Structre Defination
+struct nodeS   // Structure Defination
 {
       T data;
       struct nodeS * next;
 };
 ///////////////////////////////////////////////////
 template<class T>
-struct nodeD    // Structre Defination
+struct nodeD    // Structure Defination
 {
       T data;
       struct nodeD * next;
